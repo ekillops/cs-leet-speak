@@ -1,4 +1,5 @@
 using Xunit;
+using LeetSpeak.Objects;
 
 namespace LeetSpeak
 {

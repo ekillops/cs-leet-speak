@@ -1,6 +1,6 @@
 using System.Collections;
 
-namespace LeetSpeak
+namespace LeetSpeak.Objects
 {
   public class LeetTranslator
   {
