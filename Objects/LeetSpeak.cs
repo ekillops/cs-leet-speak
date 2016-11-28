@@ -25,6 +25,10 @@ namespace LeetSpeak
           case 'A':
               inputArray[i] = '4';
               break;
+          case 'i':
+          case 'I':
+              inputArray[i] = '1';
+              break;
           default:
               break;
         }

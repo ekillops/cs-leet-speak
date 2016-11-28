@@ -25,5 +25,12 @@ namespace LeetSpeak
       string input = "Cat";
       Assert.Equal("C4t", testTranslator.Translate(input));
     }
+    [Fact]
+    public void Translate_ReplaceIWith1_true()
+    {
+      LeetTranslator testTranslator = new LeetTranslator();
+      string input = "Input";
+      Assert.Equal("1nput", testTranslator.Translate(input));
+    }
   }
 }
