@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>1337 5p34k!</title>
+  </head>
+  <body>
+    <h1>1337 Speak Translator</h1>
+
+    <p>Enter a word in the form below and press submit to see the word in 1337 Speak</p>
+    <form action="/index" method="post">
+      <input type="text" name="user-word">
+      <button type="submit">Submit</button>
+    </form>
+
+    @if (@Model != null )
+    {
+      <p>Result:</p>
+      <p>@Model</p>
+    }
+  </body>
+</html>
