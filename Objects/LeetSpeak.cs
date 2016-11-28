@@ -14,10 +14,16 @@ namespace LeetSpeak
         switch (inputArray[i])
         {
           case 'e':
-              inputArray[i] = '3';
-              break;
           case 'E':
               inputArray[i] = '3';
+              break;
+          case 'o':
+          case 'O':
+              inputArray[i] = '0';
+              break;
+          case 'a':
+          case 'A':
+              inputArray[i] = '4';
               break;
           default:
               break;
